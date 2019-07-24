@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chart utils test html structure 1`] = `"{\\"html\\":\\"<div id=\\\\\\"piechart-block\\\\\\"><canvas id=\\\\\\"piechart\\\\\\"></canvas></div>\\"}"`;
