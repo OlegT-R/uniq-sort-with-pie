@@ -16,7 +16,7 @@ const ChartComponent = (eventName: string): IChartBLock => {
       datasets: [
         {
           data: [],
-          backgroundColor: []
+          backgroundColor: ['red', 'green', 'blue']
         }
       ],
       labels: []

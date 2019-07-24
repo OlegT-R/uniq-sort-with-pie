@@ -11,7 +11,7 @@ export interface IInputElement {
 const getOnlyAlphabet = (value: string) => {
   let result = '';
   for (const char of value) {
-    if (/^[a-z]+$/.test(char)) {
+    if (/^[a-c]+$/.test(char)) {
       result += char;
     }
   }

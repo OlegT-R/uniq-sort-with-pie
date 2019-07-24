@@ -43,14 +43,6 @@ export const getChartDataSet = (chars: string): IDataSet => {
 
 export const addData = (chart: any, labels: string[], data: number[]) => {
   chart.data.labels = labels;
-
-  chart.data.datasets[0].backgroundColor = [];
-  chart.data.datasets[0].data = data.map((value: number) => {
-    chart.data.datasets[0].backgroundColor.push(
-        // tslint:disable-next-line no-bitwise
-        '#' + ((Math.random() * 0xffffff) << 0).toString(16)
-    );
-    return value;
-  });
+  chart.data.datasets[0].data = data.map((value: number) => value);
   chart.update();
 };
